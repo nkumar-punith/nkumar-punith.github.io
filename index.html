@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curious Corners</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        nav {
+            background-color: #2980b9;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #1c638d;
+        }
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .topic-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .topic-card {
+            flex-basis: 48%;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .topic-card:hover {
+            transform: translateY(-5px);
+        }
+        h2 {
+            color: #2980b9;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #34495e;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            .topic-card {
+                flex-basis: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Curious Corners</h1>
+        <p>Exploring fascinating topics from around the world</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="detailed-topics.html">Detailed Topics</a>
+    </nav>
+    <main>
+        <h2>Welcome to Curious Corners</h2>
+        <p>This table describes the contents of each chapter in this guide.</p>
+        
+        <div class="topic-container">
+            <div class="topic-card">
+                <h3>This table describes the contents of each chapter in this guide.</h3>
+                <p>
+
+                    Chapter
+                    
+                    Contents
+                    
+                    An Introduction to HCM Security in the Cloud
+                    
+                    A brief overview of the concepts of role-based security and an introduction to the Oracle Fusion Applications Security Console
+                    
+                    Creating Implementation Users
+                    
+                    The role of implementation users and instructions for creating them
+                    
+                    Creating HCM Data Roles for Implementation Users
+                    
+                    How to provide the data access that enables implementation users to complete the functional implementation
+                    
+                    Enabling Basic Data Access for Abstract Roles
+                    
+                    How to provide basic data access for all employees, contingent workers, and line managers
+                    
+                    Assigning Roles to Implementation Users
+                    
+                    How to assign data and abstract roles to implementation users
+                    
+                    Setting Up Applications Security
+                    
+                    Setting enterprise options on the Security Console and maintaining the Oracle Fusion Applications Security tables.
+                    
+                    Working with the Bridge for Microsoft Active Directory
+                    
+                    How to install and configure the bridge for Microsoft Active Directory and synchronize user accounts
+                    
+                    Managing Location-Based Access
+                    
+                    How to enable location-based access, list authorized IP addresses, and make selected roles public
+                    
+                    Preparing for Application Users
+                    
+                    Enterprise-wide options and related decisions that affect application users
+                    
+                    Creating Application Users
+                    
+                    The ways in which you can create application users, with instructions for some methods
+                    
+                    Managing Application Users
+                    
+                    How to maintain user accounts throughout the workforce life cycle
+                    
+                    Provisioning Roles to Application Users
+                    
+                    The ways in which application users can acquire roles, with instructions for creating some standard role mappings
+                    
+                    Reporting on Application Users and Roles
+                    
+                    Reporting on user accounts, inactive users, roles provisioned to users, and password changes
+                    
+                    HCM Data Roles and Security Profiles
+                    
+                    How to create and manage HCM data roles and use HCM security profiles to identify the data that users can access
+                    
+                    Person Security Profiles
+                    
+                    How to secure access to person records
+                    
+                    Organization and Other Security Profiles
+                    
+                    How to secure access to organizations, positions, document types, legislative data groups, payrolls, and payroll flows
+                    
+                    Using the Security Console
+                    
+                    How to use the Security Console to review role hierarchies and role analytics
+                    
+                    Creating and Editing Job, Abstract, and Duty Roles
+                    
+                    How to copy predefined roles to create roles, how to create roles from scratch, and how to edit custom roles
+                    
+                    Regenerating Roles
+                    
+                    How to regenerate the data security policies of data and abstract roles when the role hierarchy changes
+                    
+                    Securing Access to Value Sets
+                    
+                    How value sets are secured, and how APPID users gain access to secured value sets
+                    
+                    Securing Content Sections in Person Profiles
+                    
+                    How to secure user access to content-type data in person profiles
+                    
+                    Securing Access to Succession Plans, Incumbents, and Candidates
+                    
+                    How to create a super user role to enable access to all succession plans, and how to configure restricted access to lists of incumbents and candidates
+                    
+                    Securing Access to Lists of Values in Responsive User Experience Pages
+                    
+                    How to enable custom roles to access lists of values in responsive user experience pages
+                    
+                    Security and Reporting
+                    
+                    How to enable users to run Oracle Transactional Business Intelligence and Oracle Business Intelligence Publisher reports
+                    
+                    Roles for Workflow Access
+                    
+                    The predefined roles that enable access to workflow functionality
+                    
+                    Auditing Oracle HCM Cloud Business Objects
+                    
+                    How to configure audit for HCM business objects and access audit reports
+                    
+                    Certificate Management
+                    
+                    How to generate, import, export, and delete PGP and X.509 certificates for data encryption and decryption
+                    
+                    Role Optimization
+                    
+                    How to use the optional Role Optimization Report to analyze the role hierarchy for redundancies and other inefficiencies
+                    
+                    Advanced Data Security
+                    
+                    An introduction to these optional cloud services:
+                    
+                    Database Vault for Oracle Fusion Human Capital Management Security Cloud Service
+                    
+                    Transparent Data Encryption for Oracle Fusion Human Capital Management Security Cloud Service</p>
+            </div>
+            
+            
+        </div>
+        
+        <p>Curious about more fascinating topics? Check out our <a href="detailed-topics.html">detailed topics page</a> for more in-depth explorations!</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Curious Corners | Created with curiosity</p>
+    </footer>
+</body>
+</html>
